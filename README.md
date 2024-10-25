@@ -11,3 +11,5 @@ Integration:
     Add Plugin Class: Save TrafficPaddingPlugin.java under i2p/router/java/plugins.
 
     Register Plugin: Modify RouterAppManager.java in the net.i2p.router package to include this new plugin during router startup.
+
+Configuration UI: Optionally, expose togglePadding() as a setting in the I2P control panel so users can turn padding on/off.
